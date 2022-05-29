@@ -1,8 +1,8 @@
 let modInfo = {
-	name: "The ??? Tree",
+	name: "The Tree of Magic",
 	id: "mymod",
-	author: "nobody",
-	pointsName: "points",
+	author: "Eylean Prophet",
+	pointsName: "Intelect",
 	modFiles: ["layers.js", "tree.js"],
 
 	discordName: "",
@@ -13,8 +13,8 @@ let modInfo = {
 
 // Set your version in num and name
 let VERSION = {
-	num: "0.0",
-	name: "Literally nothing",
+	num: "0.1",
+	name: "Birth of Light",
 }
 
 let changelog = `<h1>Changelog:</h1><br>
@@ -41,9 +41,10 @@ function canGenPoints(){
 function getPointGen() {
 	if(!canGenPoints())
 		return new Decimal(0)
-
+    
 	let gain = new Decimal(1)
-	return gain
+	
+	    return gain
 }
 
 // You can add non-layer related variables that should to into "player" and be saved here, along with default values
